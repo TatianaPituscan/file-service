@@ -10,13 +10,22 @@
 	</parent>
 	<groupId>ro.creativewool-projects</groupId>
 	<artifactId>file-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>file-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<docker.image.prefix>creativewool</docker.image.prefix>
 	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>bintray-taniapit-m2</id>
+			<name>taniapit-m2</name>
+			<url>https://api.bintray.com/maven/taniapit/m2/${project.artifactId}e/;publish=1</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
