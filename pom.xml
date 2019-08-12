@@ -8,6 +8,7 @@
 		<version>2.1.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>ro.creativewool-projects</groupId>
 	<artifactId>file-service</artifactId>
 	<version>0.0.1</version>
